@@ -1,0 +1,9 @@
+language: c
+ sudo: false # only for faster builds
+ compiler: 
+
+ - clang
+ - gcc
+ script:
+- gcc -o suma suma.c // we can use gcc instead of clang too
+ - ./suma 
